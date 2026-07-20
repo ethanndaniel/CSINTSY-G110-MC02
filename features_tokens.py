@@ -9,5 +9,6 @@ def get_features(word):
         "has_digit": any(c.isdigit() for c in word),
         "has_alpha": any(c.isalpha() for c in word),
         "is_upper": word.isupper(),
-        "is_lower": word.islower()
+        "is_lower": word.islower(),
+        "is_capital": word[0].isupper()
     }
