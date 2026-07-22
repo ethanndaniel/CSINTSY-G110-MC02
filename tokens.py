@@ -17,22 +17,27 @@ df = pd.read_excel("labeled_tokens.xlsx")
 
 
 "read through each row and get its features and label"
-x = []
-y = []
-for _, row in df.iterrows():
+
+def load_dataset():
+ x = []
+ y = []
+ for _, row in df.iterrows():
     x.append(get_features(row["word"]))
     y.append(row["label"])
-
-
-"convert to dicts using sklearn's DictVectorizer"
-vectorizer = DictVectorizer()
-X = vectorizer.fit_transform(x)
+ "convert to dicts using sklearn's DictVectorizer"
+ vectorizer = DictVectorizer()
+ X = vectorizer.fit_transform(x)
+ return X, y
 
 
 "print feature matrix"
+feature_list = []
 for _, row in df.iterrows():
     features = get_features(row["word"])
-    print(f'Word: {row["word"]}')
-    print(features)
-    print()
+    #print(f'Word: {row["word"]}')
+    #print(features)
+    #print()
+    features["word"] = row ["word"]
+    feature_list.append(features)
 "==NOTE terminal might not show all words but it still works; use head()/tail() to verify it=="
+
