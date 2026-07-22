@@ -13,11 +13,10 @@ from features_tokens import get_features
 df = pd.read_excel("labeled_tokens.xlsx")
 
 
-"matrix of features and labels for each word"
+"feature matrix; read through each row and get its features and label"
 x = []
 y = []
 
-"read through each row and get its features"
 for _, row in df.iterrows():
     x.append(get_features(row["word"]))
     y.append(row["label"])
