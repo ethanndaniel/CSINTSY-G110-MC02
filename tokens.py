@@ -6,7 +6,7 @@ OTH = "OTH"
 
 
 import pandas as pd
-from features_tokens import get_features
+from features_tokens import get_features, p_recognition
 from sklearn.feature_extraction import DictVectorizer
 "== NOTE copy paste this in vscode terminal to install sklearn: 'pip install scikit-learn' =="
 
@@ -28,6 +28,35 @@ def load_dataset():
  vectorizer = DictVectorizer()
  X = vectorizer.fit_transform(x)
  return X, y
+
+# Implement the algo specifically for index lookback (Can combine algo w/original implementation)
+def load_dataset_model():
+   df_sorted = df.sort_values(["sentence_id", "word_id"]).reset_index(drop=True)
+   x = []
+   y = []
+   for i in range(len(df_sorted)):
+    row = df_sorted.iloc[i]
+    word1, label1 = row["word"], row["label"]
+    sentence_id = row["sentence_id"]
+
+    if i - 1 >= 0 and df_sorted.iloc[i - 1]["sentence_id"] == sentence_id:
+       word2, label2 = df_sorted.iloc[i - 1]["word"], df_sorted.iloc[i - 1]["label"]
+    else:
+        word2, label2 = "", None
+
+    if i - 2 >= 0 and df_sorted.iloc[i - 2]["sentence_id"] == sentence_id:
+     word3, label3 = df_sorted.iloc[i - 2]["word"], df_sorted.iloc[i - 2]["label"]
+    else:
+     word3, label3 = "", None
+
+    feats = get_features(word1)
+    feats.update(p_recognition(word3, word2, word1, label3, label2, label1))
+    x.append(feats)
+    y.append(label1)
+
+    vectorizer = DictVectorizer()
+   X = vectorizer.fit_transform(x)
+   return X, y
 
 
 "print feature matrix"
