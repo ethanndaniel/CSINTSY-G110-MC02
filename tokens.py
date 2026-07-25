@@ -8,65 +8,83 @@ OTH = "OTH"
 import pandas as pd
 from features_tokens import get_features, p_recognition
 from sklearn.feature_extraction import DictVectorizer
-"== NOTE copy paste this in vscode terminal to install sklearn: 'pip install scikit-learn' =="
 
+def load_dataset(file_path="labeled_tokens.xlsx"):
+   #read labeled_tokens
+   if file_path.lower().endswith(".csv"):
+      df = pd.read_csv(file_path)
+   else:
+      df = pd.read_excel(file_path)
 
-"read Sentence IDs 2180 to 2200"
-"FORMAT: word_id, sentence_id, sentence, word, label"
-df = pd.read_excel("labeled_tokens.xlsx")
+   # VALIDATION
+   #check required columns exist
+   required_col = ["word_id", "sentence_id", "word", "label"]
 
+   for col in required_col:
+      if col not in df.columns:
+         raise ValueError(f"Missing required column: {col}")
 
-"read through each row and get its features and label"
+   #clean text fields
+   df["label"] = df["label"].fillna("").astype(str).str.strip()
+   df["word"] = df["word"].fillna("").astype(str).str.strip()
 
-def load_dataset():
- x = []
- y = []
- for _, row in df.iterrows():
-    x.append(get_features(row["word"]))
-    y.append(row["label"])
- "convert to dicts using sklearn's DictVectorizer"
- vectorizer = DictVectorizer()
- X = vectorizer.fit_transform(x)
- return X, y
+   #validate data quality -> no NaN and no blanks
+   if df.isnull().any().any():
+      raise ValueError("Dataset contains NaN values")
+   if (df["word"] == "").any():
+      raise ValueError("Dataset contains blank words")
+   if (df["label"] == "").any():
+      raise ValueError("Dataset contains blank labels")
 
-# Implement the algo specifically for index lookback (Can combine algo w/original implementation)
-def load_dataset_model():
-   df_sorted = df.sort_values(["sentence_id", "word_id"]).reset_index(drop=True)
-   x = []
-   y = []
-   for i in range(len(df_sorted)):
-    row = df_sorted.iloc[i]
-    word1, label1 = row["word"], row["label"]
-    sentence_id = row["sentence_id"]
+   #validate labels -> ENG, FIL, CS, OTH only
+   invalid = set(df["label"].unique()) - {ENG, FIL, CS, OTH}
+   if invalid:
+      raise ValueError(f"Dataset contains invalid labels: {invalid}")
 
-    if i - 1 >= 0 and df_sorted.iloc[i - 1]["sentence_id"] == sentence_id:
-       word2, label2 = df_sorted.iloc[i - 1]["word"], df_sorted.iloc[i - 1]["label"]
-    else:
-        word2, label2 = "", None
+   # FEATURE EXTRACTION
+   # sort rows sentence_id then word_id
+   df = df.sort_values(by=["sentence_id", "word_id"]).reset_index(drop=True)
 
-    if i - 2 >= 0 and df_sorted.iloc[i - 2]["sentence_id"] == sentence_id:
-     word3, label3 = df_sorted.iloc[i - 2]["word"], df_sorted.iloc[i - 2]["label"]
-    else:
-     word3, label3 = "", None
+   features_list = []
+   labels_list = []
+   metadata_list = []
 
-    feats = get_features(word1)
-    feats.update(p_recognition(word3, word2, word1, label3, label2, label1))
-    x.append(feats)
-    y.append(label1)
+   # get current features + previous features of same sentence
+   for row in df.itertuples(index=True):
+      index = row.Index
+      current_word = row.word
+      current_feat = get_features(current_word)
 
-    vectorizer = DictVectorizer()
-   X = vectorizer.fit_transform(x)
-   return X, y
+      # previous word
+      if index > 0 and df.iloc[index - 1]["sentence_id"] == row.sentence_id:
+         previous_word = df.iloc[index - 1]["word"]
+      else:
+         previous_word = None
 
+      previous_feat = p_recognition(previous_word)
 
-"print feature matrix"
-feature_list = []
-for _, row in df.iterrows():
-    features = get_features(row["word"])
-    #print(f'Word: {row["word"]}')
-    #print(features)
-    #print()
-    features["word"] = row ["word"]
-    feature_list.append(features)
-"==NOTE terminal might not show all words but it still works; use head()/tail() to verify it=="
+      # merge feature dicts
+      combined_feat = {**current_feat, **previous_feat}
 
+      features_list.append(combined_feat)
+      labels_list.append(row.label)
+      metadata_list.append({
+         "row_index": index,
+         "sentence_id": row.sentence_id,
+         "word_id": row.word_id,
+         "word": row.word,
+      })
+
+   #vectorize + transform into matrix
+   vectorizer = DictVectorizer(sparse=True)
+   x = vectorizer.fit_transform(features_list)
+   y = labels_list
+   metadata = metadata_list
+
+   #final checks
+   if len(features_list) != len(labels_list) or len(labels_list) != len(metadata_list):
+      raise ValueError("Feature, label, and metadata lengths do not match")
+   if len(vectorizer.feature_names_) == 0:
+      raise ValueError("Vectorizer did not learn any features")
+
+   return x, y, vectorizer, metadata
