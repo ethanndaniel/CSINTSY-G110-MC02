@@ -9,12 +9,10 @@ import pandas as pd
 from features_tokens import get_features, p_recognition
 from sklearn.feature_extraction import DictVectorizer
 
-def load_dataset(file_path="labeled_tokens.xlsx"):
+
+def load_dataset(file_path="labeled_tokens.csv"):
    #read labeled_tokens
-   if file_path.lower().endswith(".csv"):
-      df = pd.read_csv(file_path)
-   else:
-      df = pd.read_excel(file_path)
+   df = pd.read_csv(file_path)
 
    # VALIDATION
    #check required columns exist
