@@ -30,19 +30,19 @@ def get_features(word):
 
         "is_upper": safe_word.isupper(),
         "is_lower": safe_word.islower(),
-        "is_capital": safe_word[:1].isupper(), #:1 is safer than 0 cause 0 returns error if empty
+        "is_capital": safe_word[:1].isupper() and safe_word[1:].islower(), #:1 is safer than 0 cause 0 returns error if empty
         "is_punctuation": all(c in string.punctuation for c in safe_word) if safe_word else False, # empty should not get treated as punctuation = return false
 
         "starts_with_vowel": safe_word[:1] in VOWELS,
         "ends_with_vowel": safe_word[-1:] in VOWELS,
 
-        "first1char": safe_word[:1],
-        "first2char": safe_word[:2],
-        "first3char": safe_word[:3],
+        "first1char": lower_word[:1],
+        "first2char": lower_word[:2],
+        "first3char": lower_word[:3],
 
-        "last1char": safe_word[-1:],
-        "last2char": safe_word[-2:],
-        "last3char": safe_word[-3:],
+        "last1char": lower_word[-1:],
+        "last2char": lower_word[-2:],
+        "last3char": lower_word[-3:],
 
     }
 
@@ -59,7 +59,7 @@ def p_recognition(word2): #word2 = previous word
         "prev_has_hyphen": "-" in safe_word2,
         "prev_is_upper": safe_word2.isupper(),
         "prev_is_lower": safe_word2.islower(),
-        "prev_is_capital": safe_word2[:1].isupper(),
+        "prev_is_capital": safe_word2[:1].isupper() and safe_word2[1:].islower(),
         "prev_is_punctuation": all(c in string.punctuation for c in safe_word2) if safe_word2 else False,
 
         "prev_ends_with_vowel": safe_word2[-1:] in VOWELS,
