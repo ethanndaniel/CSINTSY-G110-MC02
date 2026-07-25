@@ -15,15 +15,6 @@ RANDOM_STATE = 67  # consistent shuffling
 def print_split_distribution(name, labels):
     print(f"{name} distribution: {dict(Counter(labels))}")
 
-
-# Backwards-compatible entry point.
-def train_with_basic_features():
-    train_models()
-
-# Backwards-compatible entry point.
-def train_with_full_features():
-    train_models()
-
 # Main training pipeline used by both wrappers.
 def train_models(file_path="labeled_tokens.csv"):
     # Load, split, train, and return trained models with split data.
