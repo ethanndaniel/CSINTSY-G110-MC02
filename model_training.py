@@ -7,7 +7,7 @@ import matplotlib.pyplot as mp
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
-from tokens import load_dataset, load_dataset_model
+from tokens import load_dataset
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.naive_bayes import BernoulliNB
 from sklearn import tree
@@ -17,7 +17,7 @@ from sklearn.metrics import accuracy_score
 
 # Initialize Word Extraction 
 
-list_words_df = pd.DataFrame(tokens.feature_list)
+#list_words_df = pd.DataFrame(tokens.feature_list)
 
 # Variable Testing (Do check if variables are passed)
 #print(list_words_df.head(10))
@@ -25,13 +25,13 @@ list_words_df = pd.DataFrame(tokens.feature_list)
 # print(list_words_df["word"][0:2])
 
 """Set the training set split"""
-X, y = load_dataset()
+X, y, vectorizer, metadata = load_dataset()
 
 # Split 1: Get the 70% training set
-X_train, X_temp, y_train, y_temp = train_test_split(X, y, test_size = 0.3, random_state = 42)
+X_train, X_temp, y_train, y_temp = train_test_split(X, y, test_size = 0.30, random_state = 42, stratify=y)
 
 # Split 2: Get the remaining 30% of the dataset (15-15 split)
-X_val, X_test, y_val, y_test = train_test_split(X_temp, y_temp, test_size=0.50, random_state=42)
+X_val, X_test, y_val, y_test = train_test_split(X_temp, y_temp, test_size=0.50, random_state=42, stratify=y_temp)
 
 """ Raw Data Analysis: Running Naive-Bayes & Decision trees"""
 
@@ -115,7 +115,7 @@ def train_with_basic_features():
 def train_with_full_features():
     
     '''1 & 2. Basic word features (get_features) + pattern recognition (p_recognition)'''
-    X_full, y_full = load_dataset_model()
+    X_full, y_full, vectorizer, metadata = load_dataset()
 
     # Cross-check: confirm y_full actually holds what we expect before splitting
     #print(f"Total rows in y_full: {len(y_full)}")
@@ -125,7 +125,7 @@ def train_with_full_features():
     #print(f"CS count: {y_full.count('CS')}")
 
     # Split 1: Get the 70% training set
-    X_train_f, X_temp_f, y_train_f, y_temp_f = train_test_split(X_full, y_full, test_size=0.3, random_state=42, stratify=y_full)
+    X_train_f, X_temp_f, y_train_f, y_temp_f = train_test_split(X_full, y_full, test_size=0.30, random_state=42, stratify=y_full)
 
     # Split 2: Get the remaining 30% of the dataset (15-15 split)
     X_val_f, X_test_f, y_val_f, y_test_f = train_test_split(X_temp_f, y_temp_f, test_size=0.50, random_state=42, stratify=y_temp_f)
