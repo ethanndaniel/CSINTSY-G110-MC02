@@ -1,45 +1,66 @@
 import string
 
+# global constants
+VOWELS = "aeiouAEIOU"
+CONSONANTS = "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ"
 
 # 1. General word features are being accounted
 def get_features(word):
+    safe_word = word or ""  # if word is None or empty -> empty string (for edge cases)
+
+    lower_word = safe_word.lower()
+    has_repeated_char = False
+    for i in range(len(lower_word) - 1):
+        if lower_word[i] == lower_word[i + 1]:
+            has_repeated_char = True
+            break
+
     return {
-        "length": len(word),
-        "alphabet_count": sum(c.isalpha() for c in word),
-        "digit_count": sum(c.isdigit() for c in word),
 
-        "has_digit": any(c.isdigit() for c in word),
-        "has_alphabet": any(c.isalpha() for c in word),
-        "has_hyphen": "-" in word,
+        "length": len(safe_word),
+        "alphabet_count": sum(c.isalpha() for c in safe_word),
+        "digit_count": sum(c.isdigit() for c in safe_word),
+        "vowel_count": sum(c in VOWELS for c in safe_word),
+        "consonant_count": sum(c in CONSONANTS for c in safe_word),
 
-        "is_alphabet": word.isalpha( ),
-        "is_upper": word.isupper(),
-        "is_lower": word.islower(),
-        "is_capital": len(word) > 0 and word[0].isupper(),
+        "has_hyphen": "-" in safe_word,
+        "has_apostrophe": "'" in safe_word,
+        "has_alpha_digit_mix": any(c.isalpha() for c in safe_word) and any(c.isdigit() for c in safe_word),
+        "has_repeated_char": has_repeated_char,
 
-        "is_punctuation": all(c in string.punctuation for c in word),
+        "is_upper": safe_word.isupper(),
+        "is_lower": safe_word.islower(),
+        "is_capital": safe_word[:1].isupper(), #:1 is safer than 0 cause 0 returns error if empty
+        "is_punctuation": all(c in string.punctuation for c in safe_word) if safe_word else False, # empty should not get treated as punctuation = return false
+
+        "starts_with_vowel": safe_word[:1] in VOWELS,
+        "ends_with_vowel": safe_word[-1:] in VOWELS,
+
+        "first1char": safe_word[:1],
+        "first2char": safe_word[:2],
+        "first3char": safe_word[:3],
+
+        "last1char": safe_word[-1:],
+        "last2char": safe_word[-2:],
+        "last3char": safe_word[-3:],
 
     }
 
 # 2. Word features are being compared to previous word for pattern tracing
-def p_recognition(word3,word2, word1, label3, label2, label1):
+def p_recognition(word2): #word2 = previous word
+    safe_word2 = word2 or ""
+
     return{
-        # Count number of code-switches per sentence id (General count)
-        "switch_count": sum(c.isalpha() for c in word2),
+        "prev_has_token": len(safe_word2) > 0,
+        "prev_length": len(safe_word2),
+        "prev_alphabet_count": sum(c.isalpha() for c in safe_word2),
+        "prev_digit_count": sum(c.isdigit() for c in safe_word2),
 
-        # Count occurences of code-switches per sentence id
-        "ENG_FIL": int(label2 == "ENG" and label1 == "FIL"),
-        "ENG_OTH": int(label2 == "ENG" and label1 == "OTH"),
-        "FIL_ENG": int(label2 == "FIL" and label1 == "ENG"),
-        "FIL_OTH": int(label2 == "FIL" and label1 == "OTH"),
-        "OTH_ENG": int(label2 == "OTH" and label1 == "ENG"),
-        "OTH_FIL": int(label2 == "OTH" and label1 == "FIL"),
+        "prev_has_hyphen": "-" in safe_word2,
+        "prev_is_upper": safe_word2.isupper(),
+        "prev_is_lower": safe_word2.islower(),
+        "prev_is_capital": safe_word2[:1].isupper(),
+        "prev_is_punctuation": all(c in string.punctuation for c in safe_word2) if safe_word2 else False,
 
-        # Count occurences of codeswitching after two consecutive languages
-        "ENG_ENG_FIL": int(label3 == "ENG" and label2 == "ENG" and label1 == "FIL"),
-        "ENG_ENG_OTH": int(label3 == "ENG" and label2 == "ENG" and label1 == "OTH"),
-        "FIL_FIL_ENG": int(label3 == "FIL" and label2 == "FIL" and label1 == "ENG"),
-        "FIL_FIL_OTH": int(label3 == "FIL" and label2 == "FIL" and label1 == "OTH"),
-        "OTH_OTH_FIL": int(label3 == "OTH" and label2 == "OTH" and label1 == "FIL"),
-        "OTH_OTH_ENG": int(label3 == "OTH" and label2 == "OTH" and label1 == "ENG"),
+        "prev_ends_with_vowel": safe_word2[-1:] in VOWELS,
     }
