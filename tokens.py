@@ -77,7 +77,7 @@ def load_dataset(file_path="labeled_tokens.xlsx"):
 
    #vectorize + transform into matrix
    vectorizer = DictVectorizer(sparse=True)
-   x = vectorizer.fit_transform(features_list)
+   X = vectorizer.fit_transform(features_list)
    y = labels_list
    metadata = metadata_list
 
@@ -87,4 +87,4 @@ def load_dataset(file_path="labeled_tokens.xlsx"):
    if len(vectorizer.feature_names_) == 0:
       raise ValueError("Vectorizer did not learn any features")
 
-   return x, y, vectorizer, metadata
+   return X, y, vectorizer, metadata
