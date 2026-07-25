@@ -9,112 +9,57 @@ from sklearn.metrics import (
     confusion_matrix,
 )
 
+LABELS = ["ENG", "FIL", "CS", "OTH"]
 
-# =========================================================
-# STEP 2: EVALUATE EACH MODEL
-# STEP 6: PRODUCE METRICS
-# STEP 7: PRODUCE CONFUSION MATRIX
-# Purpose:
-# - Reusable evaluator for one model and one split
-# - Produces predictions, metrics, and confusion matrix
-# =========================================================
+def evaulate_validation(models, x_val, y_val, labels):
 
+def best_model(validation_results, metric="accuracy"):
 
+def evaluate_best(best_name, models, x_test, y_test, labels):
 
-def get_trained_models(file_path="labeled_tokens.csv"):
-    # =========================================================
-    # STEP 1: RECEIVE TRAINED MODELS
-    # Purpose:
-    # - Load trained models from model_training
-    # - Unpack vectorizer and split payload
-    # =========================================================
-    trained_output = train_models(file_path)
-    models = trained_output["models"]
-    fitted_vectorizer = trained_output["vectorizer"]
+def evaluate_trained_models(path="labeled_tokens.csv"):
+    output = train_models(path)
 
-    _, _, _ = trained_output["splits"]["train"]
-    x_val_local, y_val_local, _ = trained_output["splits"]["validation"]
-    x_test_local, y_test_local, _ = trained_output["splits"]["test"]
+    #unpack models, vectorizer split, test split
+    models = output["models"]
+    vectorizer = output["vectorizer"]
 
-    # =========================================================
-    # STEP 3: COMPARE VALIDATION RESULTS
-    # Purpose:
-    # - Store validation results for all models
-    # =========================================================
-    validation_results = {}
+    x_val, y_val, metadata_val = output["splits"]["validation"]
+    x_test, y_test, metadata_test = output["splits"]["test"]
 
-    # =========================================================
-    # STEP 2: EVALUATE EACH MODEL
-    # Purpose:
-    # - Run every trained model on validation split
-    # =========================================================
-    for name, model in models.items():
-        predictions, accuracy = evaluate_model(
-            name=f"{name} - validation",
-            model=model,
-            x_data=x_val,
-            y_data=y_val,
-        )
-        validation_results[name] = {
-            "accuracy": accuracy,
-            "predictions": predictions,
-        }
-    
-    # =========================================================
-    # STEP 4: CHOOSE BEST MODEL
-    # Purpose:
-    # - Select model using validation performance
-    # =========================================================
-    best_model_name = max(validation_results, key=lambda name: validation_results[name]["accuracy"])
-    best_model = models[best_model_name]
+    # evaluate all on validation set
+    validation_results = evaluate_validation(models, x_val, y_val, LABELS)
 
-    # =========================================================
-    # STEP 5: EVALUATE ON TEST SET
-    # Purpose:
-    # - Run selected best model once on test split
-    # =========================================================
-    test_predictions, test_accuracy = evaluate_model(
-        name=f"{best_model_name} - final test",
-        model=best_model,
-        x_data=x_test,
-        y_data=y_test,
-    )
+    # best model = macro F1-score
+    best_name, best_metrics = best_model(validation_results, "f1_macro")
 
-    
-    predictions = model.predict(x_data)
-    accuracy = accuracy_score(y_data, predictions)
+    #evaluate best model on test set
+    test_predictions, test_metrics, test_confusion_matrix = evaluate_best(best_name, models, x_test, y_test, LABELS)
 
-    print(f"\n{name}")
-    print(f"Accuracy: {accuracy:.4f}")
-    print(classification_report(y_data, predictions, labels=["ENG", "FIL", "CS", "OTH"], zero_division=0))
-    # add confusion matrix
-    cm = confusion_matrix(y_data, predictions, labels=["ENG", "FIL", "CS", "OTH"])
-    disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=["ENG", "FIL", "CS", "OTH"])
-    disp.plot(cmap="Blues")
+    # summarize incorrect predicted tokens
+    misclassified_tokens, misclassified_summary = analyze_misclassified(y_test, test_predictions, metadata_test)
 
-
-# =========================================================
-# STEP 8: ANALYZE MISCLASSIFIED WORDS
-# Purpose:
-# - Error analysis: inspect wrong predictions by word/sentence
-# =========================================================
-def display_error_analysis():
-    #misclassified words
-    #word
-    #true label
-    #predicted label
-    #sentenceID
-    pass
-
-
-def display_misclassified_table():
-    #display misclassified words
-    #word
-    #true label
-    #predicted label
-    #sentenceID
-    pass
-
+    #return for report
+    return{
+        "models": models,
+        "vectorizer": vectorizer,
+        "validation_results": validation_results,
+        "best_model": {
+            "name": best_name,
+            "metrics": best_metrics,
+        },
+        "test_results": {
+            "predictions": test_predictions,
+            "metrics": test_metrics,
+            "confusion_matrix": test_confusion_matrix,
+        },
+        "misclassified": {
+            "tokens": misclassified_tokens,
+            "summary": misclassified_summary,
+        },
+        "validation_metadata": metadata_val,
+        "test_metadata": metadata_test,
+    }
 
 def plot_decision_tree(model, vectorizer, output_path="decision_tree.png"):
     mp.figure(figsize=(30, 30))
