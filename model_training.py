@@ -125,10 +125,10 @@ def train_with_full_features():
     #print(f"CS count: {y_full.count('CS')}")
 
     # Split 1: Get the 70% training set
-    X_train_f, X_temp_f, y_train_f, y_temp_f = train_test_split(X_full, y_full, test_size=0.3, random_state=42
-)
+    X_train_f, X_temp_f, y_train_f, y_temp_f = train_test_split(X_full, y_full, test_size=0.3, random_state=42, stratify=y_full)
+
     # Split 2: Get the remaining 30% of the dataset (15-15 split)
-    X_val_f, X_test_f, y_val_f, y_test_f = train_test_split(X_temp_f, y_temp_f, test_size=0.50, random_state=42)
+    X_val_f, X_test_f, y_val_f, y_test_f = train_test_split(X_temp_f, y_temp_f, test_size=0.50, random_state=42, stratify=y_temp_f)
 
     '''3. Run naive-bayes & tree implementation on the engineered feature set'''
     mnb = MultinomialNB()
