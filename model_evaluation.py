@@ -118,14 +118,13 @@ def evaluate_best(best_name, models, x_test, y_test, labels):
 
 # func to analyze misclassified tokens and give reports
 def analyze_misclassified(y_true, y_pred, metadata_test):
-    misclassified_tokens = []
-    misclassified_summary = {}
 
     #check if all inputs refer to the same number of samples
     if len(y_true) != len(y_pred) or len(y_true) != len(metadata_test):
         raise ValueError("True labels, predictions, and metadata must be the same")
 
     misclassified_tokens = []
+    misclassified_summary = {}
 
     #comppare true and predicted labels for each test
     for true_label, pred_label, metadata in zip(y_true, y_pred, metadata_test):
@@ -140,7 +139,7 @@ def analyze_misclassified(y_true, y_pred, metadata_test):
 
     #summarize for error analysis
     true_label_counts = Counter([token["true_label"] for token in misclassified_tokens])
-    predicted_label_counts = Counter([str(token["predicted_label"]) for token in misclassified_tokens])
+    predicted_label_counts = Counter([(token["predicted_label"]) for token in misclassified_tokens])
     word_counts = Counter([token["word"] for token in misclassified_tokens])
 
     misclassified_summary = {
