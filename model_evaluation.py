@@ -22,9 +22,9 @@ def evaluate_model(name, model, x, y, labels):
 
     #compute metrics
     accuracy = accuracy_score(y, predict)
-    precision = precision_score(y, predict, average="macro", zero_division=0)
-    recall = recall_score(y, predict, average="macro", zero_division=0)
-    f1 = f1_score(y, predict, average="macro", zero_division=0)
+    precision = precision_score(y, predict, labels=labels, average="macro", zero_division=0)
+    recall = recall_score(y, predict, labels=labels, average="macro", zero_division=0)
+    f1 = f1_score(y, predict, labels=labels, average="macro", zero_division=0)
 
     # classification report
     report = classification_report(y, predict, labels=labels, zero_division=0)
@@ -56,9 +56,10 @@ def evaluate_model(name, model, x, y, labels):
 def evaluate_validation(models, x_val, y_val, labels):
     validation_results = {}
 
+    print(f"\nEvaluating on validation set.. \n")
+
     # evaluate each model on validation set
     for name, model in models.items():
-        print(f"Evaluating {name} on validation set")
         predict, metrics, matrix = evaluate_model(name, model, x_val, y_val, labels)
 
         #results each model
@@ -67,6 +68,9 @@ def evaluate_validation(models, x_val, y_val, labels):
             "metrics": metrics,
             "confusion_matrix": matrix,
         }
+
+        print("................................................\n")
+        
 
     return validation_results
 
@@ -93,7 +97,7 @@ def best_model(validation_results, metric="f1_macro"):
             best_name = name
             best_metrics = metrics
 
-    print(f"Best model based on validation {metric}:")
+    print(f"== [ Best model based on validation {metric} ] ==")
     print(f"{best_name}")
     print(f"{metric}: {best_score:.4f}")
 
@@ -131,12 +135,12 @@ def analyze_misclassified(y_true, y_pred, metadata_test):
                 "sentence_id": metadata["sentence_id"],
                 "word_id": metadata["word_id"],
                 "true_label": true_label,
-                "predicted_label": pred_label,
+                "predicted_label": str(pred_label),
             })
 
     #summarize for error analysis
     true_label_counts = Counter([token["true_label"] for token in misclassified_tokens])
-    predicted_label_counts = Counter([token["predicted_label"] for token in misclassified_tokens])
+    predicted_label_counts = Counter([str(token["predicted_label"]) for token in misclassified_tokens])
     word_counts = Counter([token["word"] for token in misclassified_tokens])
 
     misclassified_summary = {
@@ -147,7 +151,8 @@ def analyze_misclassified(y_true, y_pred, metadata_test):
     }
 
     #display indivisual errors
-    print("\nMisclassified Tokens:")
+    print("................................................\n")
+    print("Misclassified Tokens:")
 
     if not misclassified_tokens:
         print("No misclassified tokens found")
@@ -233,9 +238,13 @@ def plot_decision_tree(model, vectorizer, output_path="decision_tree.png"):
 
 # main to run
 if __name__ == "__main__":
+    print("................................................\n")
+    print("== [ Starting model evaluation pipeline... ] ==\n")
+
     results = evaluate_trained_models("labeled_tokens.csv")
 
-    print("\nEvaluation completed.")
+    print("................................................\n")
+    print("Evaluation completed.")
     print(  f"Selected model: "
             f"{results['best_model']['name']}")
 
