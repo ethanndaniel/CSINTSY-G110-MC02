@@ -1,6 +1,7 @@
 """ model evaluation functions """
 
 import matplotlib.pyplot as mp
+from numpy import matrix
 from model_training import train_models
 from sklearn import tree
 from sklearn.metrics import (
@@ -49,6 +50,14 @@ def evaluate_model(name, model, x, y, labels):
     print(f"F1-macro: {f1:.4f}")
     print("Classification Report:")
     print(report)
+    print("Confusion Matrix:")
+    print(f"{'':>6} {'ENG':>5} {'FIL':>5} {'CS':>5} {'OTH':>5}")
+    for label, row in zip(labels, matrix):
+        print(f"{label:>6} {row[0]:>5} {row[1]:>5} {row[2]:>5} {row[3]:>5}")
+    print()
+    print("Rows = Actual Labels")
+    print("Columns = Predicted Labels\n")
+
 
     return predict, metrics, matrix
 
@@ -140,12 +149,16 @@ def analyze_misclassified(y_true, y_pred, metadata_test):
     #summarize for error analysis
     true_label_counts = Counter([token["true_label"] for token in misclassified_tokens])
     predicted_label_counts = Counter([(token["predicted_label"]) for token in misclassified_tokens])
+    error_transitions = Counter(
+        [f"{token['true_label']} -> {token['predicted_label']}" for token in misclassified_tokens]
+    )
     word_counts = Counter([token["word"] for token in misclassified_tokens])
 
     misclassified_summary = {
         "total_misclassified": len(misclassified_tokens),
         "true_label_counts": dict(true_label_counts),
         "predicted_label_counts": dict(predicted_label_counts),
+        "error_transitions": dict(error_transitions),
         "most_frequently_misclassified_words": word_counts.most_common(10),
     }
 
@@ -156,14 +169,81 @@ def analyze_misclassified(y_true, y_pred, metadata_test):
     if not misclassified_tokens:
         print("No misclassified tokens found")
     else:
-        for token in misclassified_tokens:
-            print(f"Word: {token['word']} | Sentence ID: {token['sentence_id']} | Word ID: {token['word_id']} | True Label: {token['true_label']} | Predicted Label: {token['predicted_label']}")
+        headers = ["Token", "Sentence ID", "Word ID", "True Label", "Predicted Label"]
+        rows = [
+            [
+                token["word"],
+                str(token["sentence_id"]),
+                str(token["word_id"]),
+                token["true_label"],
+                token["predicted_label"],
+            ]
+            for token in misclassified_tokens
+        ]
+
+        column_widths = [
+            max(len(headers[i]), max(len(row[i]) for row in rows))
+            for i in range(len(headers))
+        ]
+
+        print(
+            " | ".join(
+                f"{headers[i]:<{column_widths[i]}}" for i in range(len(headers))
+            )
+        )
+        print("-+-".join("-" * column_widths[i] for i in range(len(headers))))
+
+        for row in rows:
+            print(
+                " | ".join(
+                    f"{row[i]:<{column_widths[i]}}" for i in range(len(headers))
+                )
+            )
 
     #display short summary
+    print("\n................................................")
     print("\nMisclassification Summary:")
-    print(f"Total Misclassified Tokens: {misclassified_summary['total_misclassified']}")
-    print(f"True Label Counts: {misclassified_summary['true_label_counts']}")
-    print(f"Predicted Label Counts: {misclassified_summary['predicted_label_counts']}")
+    print(f"Total misclassified tokens: {misclassified_summary['total_misclassified']}\n")
+    print("Errors by actual label:")
+    total_errors = misclassified_summary["total_misclassified"]
+    for label in LABELS:
+        count = misclassified_summary["true_label_counts"].get(label, 0)
+        rate = (count / total_errors * 100) if total_errors else 0
+        print(f"{label}: {count} ({rate:.1f}%)")
+
+    print("\nError transitions:")
+    sorted_transitions = sorted(
+        misclassified_summary["error_transitions"].items(),
+        key=lambda item: (-item[1], item[0]),
+    )
+    for transition, count in sorted_transitions:
+        print(f"{transition}: {count}")
+
+    print("\nTLDR")
+    if sorted_transitions:
+        top_transition, top_count = sorted_transitions[0]
+        if top_count > 1:
+            print(
+                f"The most repeated error pattern is {top_transition}, which appears {top_count} times."
+            )
+        else:
+            print(
+                f"The errors are spread across several transitions, with no single repeated pattern dominating."
+            )
+
+        repeated_words = [
+            f"{word} ({count})"
+            for word, count in word_counts.most_common(3)
+            if count > 1
+        ]
+        if repeated_words:
+            print(
+                "Repeated tokens among the mistakes include "
+                + ", ".join(repeated_words)
+                + "."
+            )
+    else:
+        print("No repeated error patterns were found because there were no misclassified tokens.")
 
     return misclassified_tokens, misclassified_summary
 
@@ -228,7 +308,6 @@ def plot_decision_tree(model, vectorizer, output_path="decision_tree.png"):
         filled=True,
         rounded=True,
         max_depth=3,
-        fontsize=8,
     )
 
     mp.title("Decision Tree - First Three Levels")
