@@ -1,4 +1,5 @@
 """ model evaluation functions """
+
 import matplotlib.pyplot as mp
 from model_training import train_models
 from sklearn import tree
@@ -187,6 +188,10 @@ def evaluate_trained_models(path="labeled_tokens.csv"):
     #4  summarize incorrect predicted tokens
     misclassified_tokens, misclassified_summary = analyze_misclassified(y_test, test_predictions, metadata_test)
 
+    #5 opt plot trained Decision Tree model
+    if "Decision Tree" in models:
+        plot_decision_tree(model=models["Decision Tree"],vectorizer=vectorizer)
+
     #return for report
     return{
         "models": models,
@@ -211,20 +216,20 @@ def evaluate_trained_models(path="labeled_tokens.csv"):
 
 def plot_decision_tree(model, vectorizer, output_path="decision_tree.png"):
     mp.figure(figsize=(30, 30))
+
     tree.plot_tree(
         model,
         feature_names=vectorizer.get_feature_names_out(),
         class_names=model.classes_,
         filled=True,
+        rounded=True,
         max_depth=3,
+        fontsize=8,
     )
+
     mp.title("Decision Tree - First Three Levels")
     mp.savefig(output_path, dpi=150, bbox_inches="tight")
     mp.close()
 
-    if "Decision Tree" in models:
-        plot_decision_tree(
-            models["Decision Tree"],
-            vectorizer,
-        )
+
 
