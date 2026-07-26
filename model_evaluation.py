@@ -1,6 +1,7 @@
 """ model evaluation functions """
 
 import matplotlib.pyplot as mp
+import pickle
 from numpy import matrix
 from model_training import train_models
 from sklearn import tree
@@ -314,6 +315,16 @@ def plot_decision_tree(model, vectorizer, output_path="decision_tree.png"):
     mp.savefig(output_path, dpi=150, bbox_inches="tight")
     mp.close()
 
+def save_model(best_model, vectorizer):
+    with open("best_model.pkl", "wb") as file:
+        pickle.dump(best_model, file)
+
+    with open("vectorizer.pkl", "wb") as file:
+        pickle.dump(vectorizer, file)
+
+    print("\nSelected best model saved as best_model.pkl")
+    print("Vectorizer saved as vectorizer.pkl")
+
 # main to run
 if __name__ == "__main__":
     print("................................................\n")
@@ -325,5 +336,7 @@ if __name__ == "__main__":
     print("Evaluation completed.")
     print(  f"Selected model: "
             f"{results['best_model']['name']}")
+
+    save_model(results['best_model'], results['vectorizer'])
 
 
