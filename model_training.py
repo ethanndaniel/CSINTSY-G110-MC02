@@ -6,6 +6,7 @@ from sklearn import tree
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import BernoulliNB, MultinomialNB
 from tokens import load_dataset
+import pickle
 
 RANDOM_STATE = 67  # consistent shuffling
 
@@ -50,6 +51,9 @@ def train_models(file_path="labeled_tokens.csv"):
 
     for model in models.values():
         model.fit(x_train, y_train_local)
+
+    with open('training_model.pkl', 'wb') as model_file:
+        pickle.dump(model[0], model_file)
 
     return {
         "models": models,
