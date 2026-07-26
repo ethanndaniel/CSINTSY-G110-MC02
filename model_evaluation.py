@@ -231,5 +231,12 @@ def plot_decision_tree(model, vectorizer, output_path="decision_tree.png"):
     mp.savefig(output_path, dpi=150, bbox_inches="tight")
     mp.close()
 
+# main to run
+if __name__ == "__main__":
+    results = evaluate_trained_models("labeled_tokens.csv")
+
+    print("\nEvaluation completed.")
+    print(  f"Selected model: "
+            f"{results['best_model']['name']}")
 
 
