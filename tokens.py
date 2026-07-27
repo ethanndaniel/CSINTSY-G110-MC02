@@ -12,7 +12,7 @@ from sklearn.feature_extraction import DictVectorizer
 
 def load_dataset(file_path="labeled_tokens.csv"):
    #read labeled_tokens
-   df = pd.read_csv(file_path)
+   df = pd.read_csv(file_path, keep_default_na=False, na_values=[])
 
    # VALIDATION
    #check required columns exist

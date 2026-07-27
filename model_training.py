@@ -53,7 +53,8 @@ def train_models(file_path="labeled_tokens.csv"):
         model.fit(x_train, y_train_local)
 
     with open('training_model.pkl', 'wb') as model_file:
-        pickle.dump(model[0], model_file)
+       # pickle.dump(model[0], model_file)
+       pass
 
     return {
         "models": models,

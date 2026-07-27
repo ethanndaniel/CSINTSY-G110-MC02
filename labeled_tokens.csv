@@ -766,7 +766,7 @@ word_id,sentence_id,sentence,word,label
 17663,1093,"Sa mga tuntunin ng kaligtasan , isang pagsusuri ng 44 , 000 katao ang nagpakita na ito ay generally well tolerated , na may karaniwang mga epekto tulad ng kirot sa injection-site , sakit ng ulo , pagkapagod at pananakit ng kalamnan .",ng,FIL
 17664,1093,"Sa mga tuntunin ng kaligtasan , isang pagsusuri ng 44 , 000 katao ang nagpakita na ito ay generally well tolerated , na may karaniwang mga epekto tulad ng kirot sa injection-site , sakit ng ulo , pagkapagod at pananakit ng kalamnan .",44,OTH
 17665,1093,"Sa mga tuntunin ng kaligtasan , isang pagsusuri ng 44 , 000 katao ang nagpakita na ito ay generally well tolerated , na may karaniwang mga epekto tulad ng kirot sa injection-site , sakit ng ulo , pagkapagod at pananakit ng kalamnan .",",",OTH
-17666,1093,"Sa mga tuntunin ng kaligtasan , isang pagsusuri ng 44 , 000 katao ang nagpakita na ito ay generally well tolerated , na may karaniwang mga epekto tulad ng kirot sa injection-site , sakit ng ulo , pagkapagod at pananakit ng kalamnan .",000,OTH
+17666,1093,"Sa mga tuntunin ng kaligtasan , isang pagsusuri ng 44 , 000 katao ang nagpakita na ito ay generally well tolerated , na may karaniwang mga epekto tulad ng kirot sa injection-site , sakit ng ulo , pagkapagod at pananakit ng kalamnan .",0,OTH
 17667,1093,"Sa mga tuntunin ng kaligtasan , isang pagsusuri ng 44 , 000 katao ang nagpakita na ito ay generally well tolerated , na may karaniwang mga epekto tulad ng kirot sa injection-site , sakit ng ulo , pagkapagod at pananakit ng kalamnan .",katao,FIL
 17668,1093,"Sa mga tuntunin ng kaligtasan , isang pagsusuri ng 44 , 000 katao ang nagpakita na ito ay generally well tolerated , na may karaniwang mga epekto tulad ng kirot sa injection-site , sakit ng ulo , pagkapagod at pananakit ng kalamnan .",ang,FIL
 17669,1093,"Sa mga tuntunin ng kaligtasan , isang pagsusuri ng 44 , 000 katao ang nagpakita na ito ay generally well tolerated , na may karaniwang mga epekto tulad ng kirot sa injection-site , sakit ng ulo , pagkapagod at pananakit ng kalamnan .",nagpakita,FIL
@@ -798,7 +798,7 @@ word_id,sentence_id,sentence,word,label
 17695,1093,"Sa mga tuntunin ng kaligtasan , isang pagsusuri ng 44 , 000 katao ang nagpakita na ito ay generally well tolerated , na may karaniwang mga epekto tulad ng kirot sa injection-site , sakit ng ulo , pagkapagod at pananakit ng kalamnan .",ng,FIL
 17696,1093,"Sa mga tuntunin ng kaligtasan , isang pagsusuri ng 44 , 000 katao ang nagpakita na ito ay generally well tolerated , na may karaniwang mga epekto tulad ng kirot sa injection-site , sakit ng ulo , pagkapagod at pananakit ng kalamnan .",kalamnan,FIL
 17697,1093,"Sa mga tuntunin ng kaligtasan , isang pagsusuri ng 44 , 000 katao ang nagpakita na ito ay generally well tolerated , na may karaniwang mga epekto tulad ng kirot sa injection-site , sakit ng ulo , pagkapagod at pananakit ng kalamnan .",.,OTH
-17698,1094,Kasi alam ko sa sarili ko na kailangan kong gawin yon kasi pag nagpa-relax-relax lang ako alam naman natin na hindi ko mabibigyan ng hustisya yung role ko .,Kasi,
+17698,1094,Kasi alam ko sa sarili ko na kailangan kong gawin yon kasi pag nagpa-relax-relax lang ako alam naman natin na hindi ko mabibigyan ng hustisya yung role ko .,Kasi,FIL
 17699,1094,Kasi alam ko sa sarili ko na kailangan kong gawin yon kasi pag nagpa-relax-relax lang ako alam naman natin na hindi ko mabibigyan ng hustisya yung role ko .,alam,FIL
 17700,1094,Kasi alam ko sa sarili ko na kailangan kong gawin yon kasi pag nagpa-relax-relax lang ako alam naman natin na hindi ko mabibigyan ng hustisya yung role ko .,ko,FIL
 17701,1094,Kasi alam ko sa sarili ko na kailangan kong gawin yon kasi pag nagpa-relax-relax lang ako alam naman natin na hindi ko mabibigyan ng hustisya yung role ko .,sa,FIL
@@ -1717,7 +1717,7 @@ word_id,sentence_id,sentence,word,label
 18614,1160,"Ang mga naturang mutation na natukoy sa Visayas ay natukoy na rin sa variants sa ibang bansa , gaya ng UK variant , South African at Brazilian .",",",OTH
 18615,1160,"Ang mga naturang mutation na natukoy sa Visayas ay natukoy na rin sa variants sa ibang bansa , gaya ng UK variant , South African at Brazilian .",South,ENG
 18616,1160,"Ang mga naturang mutation na natukoy sa Visayas ay natukoy na rin sa variants sa ibang bansa , gaya ng UK variant , South African at Brazilian .",African,OTH
-18617,1160,"Ang mga naturang mutation na natukoy sa Visayas ay natukoy na rin sa variants sa ibang bansa , gaya ng UK variant , South African at Brazilian .",at,
+18617,1160,"Ang mga naturang mutation na natukoy sa Visayas ay natukoy na rin sa variants sa ibang bansa , gaya ng UK variant , South African at Brazilian .",at,FIL
 18618,1160,"Ang mga naturang mutation na natukoy sa Visayas ay natukoy na rin sa variants sa ibang bansa , gaya ng UK variant , South African at Brazilian .",Brazilian,OTH
 18619,1160,"Ang mga naturang mutation na natukoy sa Visayas ay natukoy na rin sa variants sa ibang bansa , gaya ng UK variant , South African at Brazilian .",.,OTH
 18620,1162,"Inisip ko pa nga na , Tingin nyo mas magaling kayo sa akin ?",Inisip,FIL
@@ -1936,7 +1936,7 @@ word_id,sentence_id,sentence,word,label
 18833,1174,Magandang gabi mga ka Ogienatics,mga,FIL
 18834,1174,Magandang gabi mga ka Ogienatics,ka,FIL
 18835,1174,Magandang gabi mga ka Ogienatics,Ogienatics,OTH
-18836,1175,"03 Nakatayo lang ako rito sa harap ng gate , clueless kung ano ba dapat kong gawin .",03,OTH
+18836,1175,"03 Nakatayo lang ako rito sa harap ng gate , clueless kung ano ba dapat kong gawin .",3,OTH
 18837,1175,"03 Nakatayo lang ako rito sa harap ng gate , clueless kung ano ba dapat kong gawin .",Nakatayo,FIL
 18838,1175,"03 Nakatayo lang ako rito sa harap ng gate , clueless kung ano ba dapat kong gawin .",lang,FIL
 18839,1175,"03 Nakatayo lang ako rito sa harap ng gate , clueless kung ano ba dapat kong gawin .",ako,FIL
@@ -2777,7 +2777,7 @@ word_id,sentence_id,sentence,word,label
 19674,1226,Hindi naging mahirap ang pagpili kay Contis dahil nasa dugo niya ang pagiging oragon : ang mama niya ay certified at true blooded Bicolana .,ay,FIL
 19675,1226,Hindi naging mahirap ang pagpili kay Contis dahil nasa dugo niya ang pagiging oragon : ang mama niya ay certified at true blooded Bicolana .,certified,ENG
 19676,1226,Hindi naging mahirap ang pagpili kay Contis dahil nasa dugo niya ang pagiging oragon : ang mama niya ay certified at true blooded Bicolana .,at,FIL
-19677,1226,Hindi naging mahirap ang pagpili kay Contis dahil nasa dugo niya ang pagiging oragon : ang mama niya ay certified at true blooded Bicolana .,true,ENG
+19677,1226,Hindi naging mahirap ang pagpili kay Contis dahil nasa dugo niya ang pagiging oragon : ang mama niya ay certified at true blooded Bicolana .,TRUE,ENG
 19678,1226,Hindi naging mahirap ang pagpili kay Contis dahil nasa dugo niya ang pagiging oragon : ang mama niya ay certified at true blooded Bicolana .,blooded,ENG
 19679,1226,Hindi naging mahirap ang pagpili kay Contis dahil nasa dugo niya ang pagiging oragon : ang mama niya ay certified at true blooded Bicolana .,Bicolana,OTH
 19680,1226,Hindi naging mahirap ang pagpili kay Contis dahil nasa dugo niya ang pagiging oragon : ang mama niya ay certified at true blooded Bicolana .,.,OTH
