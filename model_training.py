@@ -44,8 +44,8 @@ def train_models(file_path="labeled_tokens.csv"):
     print_split_distribution("Validation", y_val_local)
     print_split_distribution("Test", y_test_local)
     models = {
-        "Multinomial Naive Bayes": MultinomialNB(),
         "Bernoulli Naive Bayes": BernoulliNB(),
+        "Multinomial Naive Bayes": MultinomialNB(),
         "Decision Tree": tree.DecisionTreeClassifier(random_state=RANDOM_STATE),
     }
 
@@ -53,8 +53,7 @@ def train_models(file_path="labeled_tokens.csv"):
         model.fit(x_train, y_train_local)
 
     with open('training_model.pkl', 'wb') as model_file:
-       # pickle.dump(model[0], model_file)
-       pass
+       pickle.dump(model, model_file)
 
     return {
         "models": models,
