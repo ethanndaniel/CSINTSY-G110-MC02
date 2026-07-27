@@ -1,0 +1,373 @@
+word_id,sentence_id,sentence,word,label
+35221,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",ang,FIL
+35222,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",dami,FIL
+35223,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",ko,FIL
+35224,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",time,ENG
+35225,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",mag,FIL
+35226,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",isip,FIL
+35227,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",kung,FIL
+35228,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",ano,FIL
+35229,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",gagawin,FIL
+35230,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",ko,FIL
+35231,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",sa,FIL
+35232,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",bday,OTH
+35233,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",ko,FIL
+35234,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",di,FIL
+35235,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",nga,FIL
+35236,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",ako,FIL
+35237,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",sure,ENG
+35238,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",kung,FIL
+35239,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",aabot,FIL
+35240,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",pa,FIL
+35241,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",ako,FIL
+35242,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",ng,FIL
+35243,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",december,ENG
+35244,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",",",OTH
+35245,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",dahil,FIL
+35246,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",sa,FIL
+35247,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",lifestyle,ENG
+35248,2180,"ang dami ko time mag isip kung ano gagawin ko sa bday ko di nga ako sure kung aabot pa ako ng december , dahil sa lifestyle ko",ko,FIL
+35249,2181,"Sabi ng ilan , iyon daw mga taong nagpako sa Panginoong Jesus sa krus .",Sabi,FIL
+35250,2181,"Sabi ng ilan , iyon daw mga taong nagpako sa Panginoong Jesus sa krus .",ng,FIL
+35251,2181,"Sabi ng ilan , iyon daw mga taong nagpako sa Panginoong Jesus sa krus .",ilan,FIL
+35252,2181,"Sabi ng ilan , iyon daw mga taong nagpako sa Panginoong Jesus sa krus .",",",OTH
+35253,2181,"Sabi ng ilan , iyon daw mga taong nagpako sa Panginoong Jesus sa krus .",iyon,FIL
+35254,2181,"Sabi ng ilan , iyon daw mga taong nagpako sa Panginoong Jesus sa krus .",daw,FIL
+35255,2181,"Sabi ng ilan , iyon daw mga taong nagpako sa Panginoong Jesus sa krus .",mga,FIL
+35256,2181,"Sabi ng ilan , iyon daw mga taong nagpako sa Panginoong Jesus sa krus .",taong,FIL
+35257,2181,"Sabi ng ilan , iyon daw mga taong nagpako sa Panginoong Jesus sa krus .",nagpako,FIL
+35258,2181,"Sabi ng ilan , iyon daw mga taong nagpako sa Panginoong Jesus sa krus .",sa,FIL
+35259,2181,"Sabi ng ilan , iyon daw mga taong nagpako sa Panginoong Jesus sa krus .",Panginoong,FIL
+35260,2181,"Sabi ng ilan , iyon daw mga taong nagpako sa Panginoong Jesus sa krus .",Jesus,OTH
+35261,2181,"Sabi ng ilan , iyon daw mga taong nagpako sa Panginoong Jesus sa krus .",sa,FIL
+35262,2181,"Sabi ng ilan , iyon daw mga taong nagpako sa Panginoong Jesus sa krus .",krus,FIL
+35263,2181,"Sabi ng ilan , iyon daw mga taong nagpako sa Panginoong Jesus sa krus .",.,OTH
+35264,2182,Pati mga bugok na DDS nalilito,Pati,FIL
+35265,2182,Pati mga bugok na DDS nalilito,mga,FIL
+35266,2182,Pati mga bugok na DDS nalilito,bugok,FIL
+35267,2182,Pati mga bugok na DDS nalilito,na,FIL
+35268,2182,Pati mga bugok na DDS nalilito,DDS,OTH
+35269,2182,Pati mga bugok na DDS nalilito,nalilito,FIL
+35270,2183,hindi ba bumababa dugo mo pag naliligo sa gabi,hindi,FIL
+35271,2183,hindi ba bumababa dugo mo pag naliligo sa gabi,ba,FIL
+35272,2183,hindi ba bumababa dugo mo pag naliligo sa gabi,bumababa,FIL
+35273,2183,hindi ba bumababa dugo mo pag naliligo sa gabi,dugo,FIL
+35274,2183,hindi ba bumababa dugo mo pag naliligo sa gabi,mo,FIL
+35275,2183,hindi ba bumababa dugo mo pag naliligo sa gabi,pag,FIL
+35276,2183,hindi ba bumababa dugo mo pag naliligo sa gabi,naliligo,FIL
+35277,2183,hindi ba bumababa dugo mo pag naliligo sa gabi,sa,FIL
+35278,2183,hindi ba bumababa dugo mo pag naliligo sa gabi,gabi,FIL
+35279,2184,Kaya ba ng mga kasabihang ito na gawing tiwali ang mga tao ?,Kaya,FIL
+35280,2184,Kaya ba ng mga kasabihang ito na gawing tiwali ang mga tao ?,ba,FIL
+35281,2184,Kaya ba ng mga kasabihang ito na gawing tiwali ang mga tao ?,ng,FIL
+35282,2184,Kaya ba ng mga kasabihang ito na gawing tiwali ang mga tao ?,mga,FIL
+35283,2184,Kaya ba ng mga kasabihang ito na gawing tiwali ang mga tao ?,kasabihang,FIL
+35284,2184,Kaya ba ng mga kasabihang ito na gawing tiwali ang mga tao ?,ito,FIL
+35285,2184,Kaya ba ng mga kasabihang ito na gawing tiwali ang mga tao ?,na,FIL
+35286,2184,Kaya ba ng mga kasabihang ito na gawing tiwali ang mga tao ?,gawing,FIL
+35287,2184,Kaya ba ng mga kasabihang ito na gawing tiwali ang mga tao ?,tiwali,FIL
+35288,2184,Kaya ba ng mga kasabihang ito na gawing tiwali ang mga tao ?,ang,FIL
+35289,2184,Kaya ba ng mga kasabihang ito na gawing tiwali ang mga tao ?,mga,FIL
+35290,2184,Kaya ba ng mga kasabihang ito na gawing tiwali ang mga tao ?,tao,FIL
+35291,2184,Kaya ba ng mga kasabihang ito na gawing tiwali ang mga tao ?,?,OTH
+35292,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,Nakipag,FIL
+35293,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,sabayan,FIL
+35294,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,sa,FIL
+35295,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,puyatan,FIL
+35296,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,kay,FIL
+35297,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,Lhea,OTH
+35298,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,seguro,FIL
+35299,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,kakagising,FIL
+35300,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,lng,FIL
+35301,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,nya,FIL
+35302,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,ngayon,FIL
+35303,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,pra,FIL
+35304,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,si,FIL
+35305,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,Gwen,OTH
+35306,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,matutulog,FIL
+35307,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,ng,FIL
+35308,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,3am,OTH
+35309,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,pinaka,FIL
+35310,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,maaga,FIL
+35311,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,tulog,FIL
+35312,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,ni,FIL
+35313,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,Gwen,OTH
+35314,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,4,OTH
+35315,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,o'clock,ENG
+35316,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,bro,ENG
+35317,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,tapos,FIL
+35318,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,magigising,FIL
+35319,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,sya,FIL
+35320,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,mga,FIL
+35321,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,2pm,OTH
+35322,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,maaga,FIL
+35323,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,na,FIL
+35324,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,ang,FIL
+35325,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,1pm,OTH
+35326,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,na,FIL
+35327,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,gising,FIL
+35328,2185,Nakipag sabayan sa puyatan kay Lhea seguro kakagising lng nya ngayon pra si Gwen matutulog ng 3am pinaka maaga tulog ni Gwen 4 o'clock bro tapos magigising sya mga 2pm maaga na ang 1pm na gising nya,nya,FIL
+35329,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",Ramdam,FIL
+35330,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",ko,FIL
+35331,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",k,OTH
+35332,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",po,FIL
+35333,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",ang,FIL
+35334,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",pasko,FIL
+35335,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",#,OTH
+35336,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",alexg,OTH
+35337,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",",",OTH
+35338,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",ang,FIL
+35339,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",paboritong,FIL
+35340,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",panghada,FIL
+35341,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",ko,FIL
+35342,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",po,FIL
+35343,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",ay,FIL
+35344,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",pansit,FIL
+35345,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",at,FIL
+35346,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",biko,FIL
+35347,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",sana,FIL
+35348,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",matikman,FIL
+35349,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",ulit,FIL
+35350,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",ang,FIL
+35351,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",ham,ENG
+35352,2186,"Ramdam ko k po ang pasko # alexg , ang paboritong panghada ko po ay pansit at biko sana matikman ulit ang ham .",.,OTH
+35353,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",Proactive,ENG
+35354,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",din,FIL
+35355,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",naman,FIL
+35356,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",ako,FIL
+35357,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",sa,FIL
+35358,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",kalusugan,FIL
+35359,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",ko,FIL
+35360,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",",",OTH
+35361,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",kaya,FIL
+35362,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",nga,FIL
+35363,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",umiinom,FIL
+35364,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",ako,FIL
+35365,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",ng,FIL
+35366,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",gatas,FIL
+35367,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",at,FIL
+35368,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",vitamin,ENG
+35369,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",C,OTH
+35370,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",.,OTH
+35371,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",At,FIL
+35372,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",'yun,FIL
+35373,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",na,FIL
+35374,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",nga,FIL
+35375,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",na-curios,CS
+35376,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",ako,FIL
+35377,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",sa,FIL
+35378,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",yellow,ENG
+35379,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",soft,ENG
+35380,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",gel,ENG
+35381,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",na,FIL
+35382,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",ito,FIL
+35383,2187,"Proactive din naman ako sa kalusugan ko , kaya nga umiinom ako ng gatas at vitamin C . At 'yun na nga na-curios ako sa yellow soft gel na ito .",.,OTH
+35384,2188,"Pangungunahan ng PNP ang law enforcement operations , gaya ng pag-iimbestiga at pag-alalay sa Comelec sa mga kasong may kinalaman sa eleksiyon .",Pangungunahan,FIL
+35385,2188,"Pangungunahan ng PNP ang law enforcement operations , gaya ng pag-iimbestiga at pag-alalay sa Comelec sa mga kasong may kinalaman sa eleksiyon .",ng,FIL
+35386,2188,"Pangungunahan ng PNP ang law enforcement operations , gaya ng pag-iimbestiga at pag-alalay sa Comelec sa mga kasong may kinalaman sa eleksiyon .",PNP,OTH
+35387,2188,"Pangungunahan ng PNP ang law enforcement operations , gaya ng pag-iimbestiga at pag-alalay sa Comelec sa mga kasong may kinalaman sa eleksiyon .",ang,FIL
+35388,2188,"Pangungunahan ng PNP ang law enforcement operations , gaya ng pag-iimbestiga at pag-alalay sa Comelec sa mga kasong may kinalaman sa eleksiyon .",law,ENG
+35389,2188,"Pangungunahan ng PNP ang law enforcement operations , gaya ng pag-iimbestiga at pag-alalay sa Comelec sa mga kasong may kinalaman sa eleksiyon .",enforcement,ENG
+35390,2188,"Pangungunahan ng PNP ang law enforcement operations , gaya ng pag-iimbestiga at pag-alalay sa Comelec sa mga kasong may kinalaman sa eleksiyon .",operations,ENG
+35391,2188,"Pangungunahan ng PNP ang law enforcement operations , gaya ng pag-iimbestiga at pag-alalay sa Comelec sa mga kasong may kinalaman sa eleksiyon .",",",OTH
+35392,2188,"Pangungunahan ng PNP ang law enforcement operations , gaya ng pag-iimbestiga at pag-alalay sa Comelec sa mga kasong may kinalaman sa eleksiyon .",gaya,FIL
+35393,2188,"Pangungunahan ng PNP ang law enforcement operations , gaya ng pag-iimbestiga at pag-alalay sa Comelec sa mga kasong may kinalaman sa eleksiyon .",ng,FIL
+35394,2188,"Pangungunahan ng PNP ang law enforcement operations , gaya ng pag-iimbestiga at pag-alalay sa Comelec sa mga kasong may kinalaman sa eleksiyon .",pag-iimbestiga,FIL
+35395,2188,"Pangungunahan ng PNP ang law enforcement operations , gaya ng pag-iimbestiga at pag-alalay sa Comelec sa mga kasong may kinalaman sa eleksiyon .",at,FIL
+35396,2188,"Pangungunahan ng PNP ang law enforcement operations , gaya ng pag-iimbestiga at pag-alalay sa Comelec sa mga kasong may kinalaman sa eleksiyon .",pag-alalay,FIL
+35397,2188,"Pangungunahan ng PNP ang law enforcement operations , gaya ng pag-iimbestiga at pag-alalay sa Comelec sa mga kasong may kinalaman sa eleksiyon .",sa,FIL
+35398,2188,"Pangungunahan ng PNP ang law enforcement operations , gaya ng pag-iimbestiga at pag-alalay sa Comelec sa mga kasong may kinalaman sa eleksiyon .",Comelec,OTH
+35399,2188,"Pangungunahan ng PNP ang law enforcement operations , gaya ng pag-iimbestiga at pag-alalay sa Comelec sa mga kasong may kinalaman sa eleksiyon .",sa,FIL
+35400,2188,"Pangungunahan ng PNP ang law enforcement operations , gaya ng pag-iimbestiga at pag-alalay sa Comelec sa mga kasong may kinalaman sa eleksiyon .",mga,FIL
+35401,2188,"Pangungunahan ng PNP ang law enforcement operations , gaya ng pag-iimbestiga at pag-alalay sa Comelec sa mga kasong may kinalaman sa eleksiyon .",kasong,FIL
+35402,2188,"Pangungunahan ng PNP ang law enforcement operations , gaya ng pag-iimbestiga at pag-alalay sa Comelec sa mga kasong may kinalaman sa eleksiyon .",may,FIL
+35403,2188,"Pangungunahan ng PNP ang law enforcement operations , gaya ng pag-iimbestiga at pag-alalay sa Comelec sa mga kasong may kinalaman sa eleksiyon .",kinalaman,FIL
+35404,2188,"Pangungunahan ng PNP ang law enforcement operations , gaya ng pag-iimbestiga at pag-alalay sa Comelec sa mga kasong may kinalaman sa eleksiyon .",sa,FIL
+35405,2188,"Pangungunahan ng PNP ang law enforcement operations , gaya ng pag-iimbestiga at pag-alalay sa Comelec sa mga kasong may kinalaman sa eleksiyon .",eleksiyon,FIL
+35406,2188,"Pangungunahan ng PNP ang law enforcement operations , gaya ng pag-iimbestiga at pag-alalay sa Comelec sa mga kasong may kinalaman sa eleksiyon .",.,OTH
+35407,2189,Nabatid na aabutin ng P910 milyon ang ipamamahaging insentibo .,Nabatid,FIL
+35408,2189,Nabatid na aabutin ng P910 milyon ang ipamamahaging insentibo .,na,FIL
+35409,2189,Nabatid na aabutin ng P910 milyon ang ipamamahaging insentibo .,aabutin,FIL
+35410,2189,Nabatid na aabutin ng P910 milyon ang ipamamahaging insentibo .,ng,FIL
+35411,2189,Nabatid na aabutin ng P910 milyon ang ipamamahaging insentibo .,P910,OTH
+35412,2189,Nabatid na aabutin ng P910 milyon ang ipamamahaging insentibo .,milyon,FIL
+35413,2189,Nabatid na aabutin ng P910 milyon ang ipamamahaging insentibo .,ang,FIL
+35414,2189,Nabatid na aabutin ng P910 milyon ang ipamamahaging insentibo .,ipamamahaging,FIL
+35415,2189,Nabatid na aabutin ng P910 milyon ang ipamamahaging insentibo .,insentibo,FIL
+35416,2189,Nabatid na aabutin ng P910 milyon ang ipamamahaging insentibo .,.,OTH
+35417,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",Batay,FIL
+35418,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",sa,FIL
+35419,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",inilabas,FIL
+35420,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",na,FIL
+35421,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",case,ENG
+35422,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",bulletin,ENG
+35423,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",ng,FIL
+35424,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",DOH,OTH
+35425,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",dakong,FIL
+35426,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",4:00,OTH
+35427,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",ng,FIL
+35428,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",hapon,FIL
+35429,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",",",OTH
+35430,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",nabatid,FIL
+35431,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",na,FIL
+35432,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",dahil,FIL
+35433,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",sa,FIL
+35434,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",mga,FIL
+35435,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",naturang,FIL
+35436,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",bagong,FIL
+35437,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",kaso,FIL
+35438,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",ng,FIL
+35439,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",sakit,FIL
+35440,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",",",OTH
+35441,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",umakyat,FIL
+35442,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",na,FIL
+35443,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",ngayon,FIL
+35444,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",sa,FIL
+35445,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",1,OTH
+35446,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",",",OTH
+35447,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",473,OTH
+35448,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",",",OTH
+35449,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",25,OTH
+35450,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",ang,FIL
+35451,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",total,ENG
+35452,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",cases,ENG
+35453,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",ng,FIL
+35454,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",COVID-19,OTH
+35455,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",sa,FIL
+35456,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",bansa,FIL
+35457,2190,"Batay sa inilabas na case bulletin ng DOH dakong 4:00 ng hapon , nabatid na dahil sa mga naturang bagong kaso ng sakit , umakyat na ngayon sa 1 , 473 , 025 ang total cases ng COVID-19 sa bansa .",.,OTH
+35458,2191,Parang maituturing na malasakit na rin sa kapwa ang hindi pagboto sa iyo mamshiee,Parang,FIL
+35459,2191,Parang maituturing na malasakit na rin sa kapwa ang hindi pagboto sa iyo mamshiee,maituturing,FIL
+35460,2191,Parang maituturing na malasakit na rin sa kapwa ang hindi pagboto sa iyo mamshiee,na,FIL
+35461,2191,Parang maituturing na malasakit na rin sa kapwa ang hindi pagboto sa iyo mamshiee,malasakit,FIL
+35462,2191,Parang maituturing na malasakit na rin sa kapwa ang hindi pagboto sa iyo mamshiee,na,FIL
+35463,2191,Parang maituturing na malasakit na rin sa kapwa ang hindi pagboto sa iyo mamshiee,rin,FIL
+35464,2191,Parang maituturing na malasakit na rin sa kapwa ang hindi pagboto sa iyo mamshiee,sa,FIL
+35465,2191,Parang maituturing na malasakit na rin sa kapwa ang hindi pagboto sa iyo mamshiee,kapwa,FIL
+35466,2191,Parang maituturing na malasakit na rin sa kapwa ang hindi pagboto sa iyo mamshiee,ang,FIL
+35467,2191,Parang maituturing na malasakit na rin sa kapwa ang hindi pagboto sa iyo mamshiee,hindi,FIL
+35468,2191,Parang maituturing na malasakit na rin sa kapwa ang hindi pagboto sa iyo mamshiee,pagboto,FIL
+35469,2191,Parang maituturing na malasakit na rin sa kapwa ang hindi pagboto sa iyo mamshiee,sa,FIL
+35470,2191,Parang maituturing na malasakit na rin sa kapwa ang hindi pagboto sa iyo mamshiee,iyo,FIL
+35471,2191,Parang maituturing na malasakit na rin sa kapwa ang hindi pagboto sa iyo mamshiee,mamshiee,FIL
+35472,2192,Sobrang katapangan ang pag share mo ng trauma mo at lalo na ang pag overcome nito .,Sobrang,FIL
+35473,2192,Sobrang katapangan ang pag share mo ng trauma mo at lalo na ang pag overcome nito .,katapangan,FIL
+35474,2192,Sobrang katapangan ang pag share mo ng trauma mo at lalo na ang pag overcome nito .,ang,FIL
+35475,2192,Sobrang katapangan ang pag share mo ng trauma mo at lalo na ang pag overcome nito .,pag,FIL
+35476,2192,Sobrang katapangan ang pag share mo ng trauma mo at lalo na ang pag overcome nito .,share,ENG
+35477,2192,Sobrang katapangan ang pag share mo ng trauma mo at lalo na ang pag overcome nito .,mo,FIL
+35478,2192,Sobrang katapangan ang pag share mo ng trauma mo at lalo na ang pag overcome nito .,ng,FIL
+35479,2192,Sobrang katapangan ang pag share mo ng trauma mo at lalo na ang pag overcome nito .,trauma,ENG
+35480,2192,Sobrang katapangan ang pag share mo ng trauma mo at lalo na ang pag overcome nito .,mo,FIL
+35481,2192,Sobrang katapangan ang pag share mo ng trauma mo at lalo na ang pag overcome nito .,at,FIL
+35482,2192,Sobrang katapangan ang pag share mo ng trauma mo at lalo na ang pag overcome nito .,lalo,FIL
+35483,2192,Sobrang katapangan ang pag share mo ng trauma mo at lalo na ang pag overcome nito .,na,FIL
+35484,2192,Sobrang katapangan ang pag share mo ng trauma mo at lalo na ang pag overcome nito .,ang,FIL
+35485,2192,Sobrang katapangan ang pag share mo ng trauma mo at lalo na ang pag overcome nito .,pag,FIL
+35486,2192,Sobrang katapangan ang pag share mo ng trauma mo at lalo na ang pag overcome nito .,overcome,ENG
+35487,2192,Sobrang katapangan ang pag share mo ng trauma mo at lalo na ang pag overcome nito .,nito,FIL
+35488,2192,Sobrang katapangan ang pag share mo ng trauma mo at lalo na ang pag overcome nito .,.,OTH
+35489,2194,"Ito ang karapat dapat na buhosan ng tulong at attention ,",Ito,FIL
+35490,2194,"Ito ang karapat dapat na buhosan ng tulong at attention ,",ang,FIL
+35491,2194,"Ito ang karapat dapat na buhosan ng tulong at attention ,",karapat,FIL
+35492,2194,"Ito ang karapat dapat na buhosan ng tulong at attention ,",dapat,FIL
+35493,2194,"Ito ang karapat dapat na buhosan ng tulong at attention ,",na,FIL
+35494,2194,"Ito ang karapat dapat na buhosan ng tulong at attention ,",buhosan,FIL
+35495,2194,"Ito ang karapat dapat na buhosan ng tulong at attention ,",ng,FIL
+35496,2194,"Ito ang karapat dapat na buhosan ng tulong at attention ,",tulong,FIL
+35497,2194,"Ito ang karapat dapat na buhosan ng tulong at attention ,",at,FIL
+35498,2194,"Ito ang karapat dapat na buhosan ng tulong at attention ,",attention,ENG
+35499,2194,"Ito ang karapat dapat na buhosan ng tulong at attention ,",",",OTH
+35500,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",Papaanong,FIL
+35501,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",ang,FIL
+35502,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",hangal,FIL
+35503,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",na,FIL
+35504,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",pag-iisip,FIL
+35505,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",ng,FIL
+35506,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",tao,FIL
+35507,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",",",OTH
+35508,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",isang,FIL
+35509,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",pag,FIL
+35510,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",iisip,FIL
+35511,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",na,FIL
+35512,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",kasintigas,FIL
+35513,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",ng,FIL
+35514,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",bato,FIL
+35515,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",",",OTH
+35516,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",ay,FIL
+35517,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",tumatanggap,FIL
+35518,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",ng,FIL
+35519,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",ganoong,FIL
+35520,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",di,FIL
+35521,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",maarok,FIL
+35522,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",na,FIL
+35523,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",bagong,FIL
+35524,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",gawain,FIL
+35525,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",at,FIL
+35526,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",mga,FIL
+35527,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",salita,FIL
+35528,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",ng,FIL
+35529,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",Diyos,FIL
+35530,2195,"Papaanong ang hangal na pag-iisip ng tao , isang pag iisip na kasintigas ng bato , ay tumatanggap ng ganoong di maarok na bagong gawain at mga salita ng Diyos ?",?,OTH
+35531,2196,kapag lalagyan mo ng pang shine yung sapatos niya at itatali mo sintas niya,kapag,FIL
+35532,2196,kapag lalagyan mo ng pang shine yung sapatos niya at itatali mo sintas niya,lalagyan,FIL
+35533,2196,kapag lalagyan mo ng pang shine yung sapatos niya at itatali mo sintas niya,mo,FIL
+35534,2196,kapag lalagyan mo ng pang shine yung sapatos niya at itatali mo sintas niya,ng,FIL
+35535,2196,kapag lalagyan mo ng pang shine yung sapatos niya at itatali mo sintas niya,pang,FIL
+35536,2196,kapag lalagyan mo ng pang shine yung sapatos niya at itatali mo sintas niya,shine,ENG
+35537,2196,kapag lalagyan mo ng pang shine yung sapatos niya at itatali mo sintas niya,yung,FIL
+35538,2196,kapag lalagyan mo ng pang shine yung sapatos niya at itatali mo sintas niya,sapatos,FIL
+35539,2196,kapag lalagyan mo ng pang shine yung sapatos niya at itatali mo sintas niya,niya,FIL
+35540,2196,kapag lalagyan mo ng pang shine yung sapatos niya at itatali mo sintas niya,at,FIL
+35541,2196,kapag lalagyan mo ng pang shine yung sapatos niya at itatali mo sintas niya,itatali,FIL
+35542,2196,kapag lalagyan mo ng pang shine yung sapatos niya at itatali mo sintas niya,mo,FIL
+35543,2196,kapag lalagyan mo ng pang shine yung sapatos niya at itatali mo sintas niya,sintas,FIL
+35544,2196,kapag lalagyan mo ng pang shine yung sapatos niya at itatali mo sintas niya,niya,FIL
+35545,2197,Salamat sa lahat ng tumulong,Salamat,FIL
+35546,2197,Salamat sa lahat ng tumulong,sa,FIL
+35547,2197,Salamat sa lahat ng tumulong,lahat,FIL
+35548,2197,Salamat sa lahat ng tumulong,ng,FIL
+35549,2197,Salamat sa lahat ng tumulong,tumulong,FIL
+35550,2198,Pili na kayo ng magnanakaw sa inyo sa 2022,Pili,FIL
+35551,2198,Pili na kayo ng magnanakaw sa inyo sa 2022,na,FIL
+35552,2198,Pili na kayo ng magnanakaw sa inyo sa 2022,kayo,FIL
+35553,2198,Pili na kayo ng magnanakaw sa inyo sa 2022,ng,FIL
+35554,2198,Pili na kayo ng magnanakaw sa inyo sa 2022,magnanakaw,FIL
+35555,2198,Pili na kayo ng magnanakaw sa inyo sa 2022,sa,FIL
+35556,2198,Pili na kayo ng magnanakaw sa inyo sa 2022,inyo,FIL
+35557,2198,Pili na kayo ng magnanakaw sa inyo sa 2022,sa,FIL
+35558,2198,Pili na kayo ng magnanakaw sa inyo sa 2022,2022,OTH
+35559,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,Yung,FIL
+35560,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,terms,ENG
+35561,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,ng,FIL
+35562,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,dreame,OTH
+35563,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,hindi,FIL
+35564,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,ko,FIL
+35565,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,alam,FIL
+35566,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,pero,FIL
+35567,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,sa,FIL
+35568,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,webnovel,OTH
+35569,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,sayo,FIL
+35570,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,ang,FIL
+35571,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,copyright,ENG
+35572,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,ngunit,FIL
+35573,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,kailangan,FIL
+35574,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,mo,FIL
+35575,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,atang,FIL
+35576,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,i-disclose,CS
+35577,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,kung,FIL
+35578,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,ipopost,CS
+35579,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,mo,FIL
+35580,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,siya,FIL
+35581,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,sa,FIL
+35582,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,ibang,FIL
+35583,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,platform,ENG
+35584,2199,Yung terms ng dreame hindi ko alam pero sa webnovel sayo ang copyright ngunit kailangan mo atang i-disclose kung ipopost mo siya sa ibang platform ?,?,OTH
+35585,2200,Paano po kayo nagpabakuna laban sa COVID-19 ?,Paano,FIL
+35586,2200,Paano po kayo nagpabakuna laban sa COVID-19 ?,po,FIL
+35587,2200,Paano po kayo nagpabakuna laban sa COVID-19 ?,kayo,FIL
+35588,2200,Paano po kayo nagpabakuna laban sa COVID-19 ?,nagpabakuna,FIL
+35589,2200,Paano po kayo nagpabakuna laban sa COVID-19 ?,laban,FIL
+35590,2200,Paano po kayo nagpabakuna laban sa COVID-19 ?,sa,FIL
+35591,2200,Paano po kayo nagpabakuna laban sa COVID-19 ?,COVID-19,OTH
+35592,2200,Paano po kayo nagpabakuna laban sa COVID-19 ?,?,OTH

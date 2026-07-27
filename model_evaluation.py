@@ -284,6 +284,7 @@ def evaluate_trained_models(path="labeled_tokens.csv"):
         "validation_results": validation_results,
         "best_model": {
             "name": best_name,
+            "model": models[best_name],
             "metrics": best_metrics,
         },
         "test_results": {
@@ -337,6 +338,6 @@ if __name__ == "__main__":
     print(  f"Selected model: "
             f"{results['best_model']['name']}")
 
-    save_model(results['best_model'], results['vectorizer'])
+    save_model(results['best_model']['model'], results['vectorizer'])
 
 
