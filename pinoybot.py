@@ -65,7 +65,20 @@ def tag_language(tokens: List[str]) -> List[str]:
 
 if __name__ == "__main__":
     # Example usage
-    example_tokens = ["Love", "kita", "."]
-    print("Tokens:", example_tokens)
-    tags = tag_language(example_tokens)
-    print("Tags:", tags)
+    example_tokens_1 = ["I", "love", "programming", "."]
+    example_tokens_2 = ["Masaya", "akong", "kumain", "."]
+    example_tokens_3 = ["Nag-download", "ako", "ng", "file", "."]
+    example_tokens_4 = ["Philippines", "is", "mahal", "."]
+    print("Tokens:", example_tokens_1)
+    tags1 = tag_language(example_tokens_1)
+    print("Tags:", tags1)
+    print("Tokens:", example_tokens_2)
+    tags2 = tag_language(example_tokens_2)
+    print("Tags:", tags2)
+    print("Tokens:", example_tokens_3)
+    tags3 = tag_language(example_tokens_3)
+    print("Tags:", tags3)
+    print("Tokens:", example_tokens_4)
+    tags4 = tag_language(example_tokens_4)
+    print("Tags:", tags4)
+    
